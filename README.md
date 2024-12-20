@@ -63,7 +63,7 @@ AIG Cyber & Information Security Team
 
 <br />
 <br />
-<h2>Task 2: Bypassing Ransomware via Brute Force</h2>h2> <br/>
+<h2>Task 2: Bypassing Ransomware via Brute Force</h2> <br/>
 <img src="https://imgur.com/06wvubS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
