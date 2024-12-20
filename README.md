@@ -30,7 +30,7 @@ Hello John Doe,
 
 AIG Cyber & Information Security Team would like to inform you that a recent Log4j vulnerability has been discovered in the security community that may affect the Product Development Staging Environment. Listed below are the vulnerability's description, risk and impact, and remediation.
 
-Description: Log4j is a Java-based logging library that contains critical and high vulnerabilities on the Common Vulnerability Scoring System (CVSS)
+**Description:** Log4j is a Java-based logging library that contains critical and high vulnerabilities on the Common Vulnerability Scoring System (CVSS)
 
 -  Log4Shell (critical): Remote code execution vulnerability affecting Apache's Log4j library, versions 2.0-beta9 to 2.14.1.
 Exists in the action the Java Naming and Directory Interface (JNDI) 
@@ -46,12 +46,11 @@ Enables remote attacker to cause a DoS condition or other effects in certain non
 Attackers with control over Thread Context Map (MDC) input data can create malicious inputs that contain recursive lookup which terminates the process.
 Affected versions are those older than Log4j version 2.17.0 (Java 8).
 
-Risk/Impact
-
+**Risk/Impact:**
 Log4Shell and CVE-2021-45046 are severe because Java is used commonly across IT and OT platforms and are easy to exploit. Malicious actors can remotely run code on vulnerable networks and take full control of systems.
 FBI observed attempted exploitation of Log4j vulnerabilities to gain access to the network and deploy crypto mining and botnet malware.
 
-Remediation: 
+**Remediation:**
 -  Identify assets and create inventory of assets that use Log4j.
 -  Update products that use Log4j to latest patched version. For environments using Java 8 or later, upgrade to Log4j version 2.17.0 or newer
 For environments using Java 7, upgrade to Log4j version 2.12.3. It is recommended to upgrade to Java 8, since Java 7 is end of life.
