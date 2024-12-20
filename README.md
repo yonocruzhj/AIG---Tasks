@@ -32,33 +32,30 @@ AIG Cyber & Information Security Team would like to inform you that a recent Log
 
 Description: Log4j is a Java-based logging library that contains critical and high vulnerabilities on the Common Vulnerability Scoring System (CVSS)
 
-Log4Shell (critical): 
-
-Remote code execution vulnerability affecting Apache's Log4j library, versions 2.0-beta9 to 2.14.1.
+-  Log4Shell (critical): Remote code execution vulnerability affecting Apache's Log4j library, versions 2.0-beta9 to 2.14.1.
 Exists in the action the Java Naming and Directory Interface (JNDI) 
 Affected versions of Log4j contain JNDI features that do not protect against adversary-controlled LDAP, DNS, and other JNDI-related endpoints.
 Adversary can take full control over system, steal information, launch ransomware, and conduct other malicious activity.
-CVE-2021-45046 (critical)
 
+-  CVE-2021-45046 (critical):
 Enables remote attacker to cause a remote code execution, a denial-of-service (DoS) condition, or other effects in certain non-default configurations.
 Affects versions of Log4j from 2.0-beta9 through 2.12.1 and 2.13.0 through 2.15.0.
-CVE-2021-45105 (high)
 
+-  CVE-2021-45105 (high):
 Enables remote attacker to cause a DoS condition or other effects in certain non-default configurations.
 Attackers with control over Thread Context Map (MDC) input data can create malicious inputs that contain recursive lookup which terminates the process.
 Affected versions are those older than Log4j version 2.17.0 (Java 8).
+
 Risk/Impact
 
 Log4Shell and CVE-2021-45046 are severe because Java is used commonly across IT and OT platforms and are easy to exploit. Malicious actors can remotely run code on vulnerable networks and take full control of systems.
 FBI observed attempted exploitation of Log4j vulnerabilities to gain access to the network and deploy crypto mining and botnet malware.
-Remediation
 
-Identify assets and create inventory of assets that use Log4j.
-Update products that use Log4j to latest patched version
-
-For environments using Java 8 or later, upgrade to Log4j version 2.17.0 or newer
+Remediation: 
+-  Identify assets and create inventory of assets that use Log4j.
+-  Update products that use Log4j to latest patched version. For environments using Java 8 or later, upgrade to Log4j version 2.17.0 or newer
 For environments using Java 7, upgrade to Log4j version 2.12.3. It is recommended to upgrade to Java 8, since Java 7 is end of life.
-Monitor assets closely and look for signs of compromise or exploitation.
+-  Monitor assets closely and look for signs of compromise or exploitation.
 
 For any questions or issues, don’t hesitate to reach out to us.
 
