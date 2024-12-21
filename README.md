@@ -1,19 +1,25 @@
 <h1>AIG: Respond to Zero Day Attack and Bypassing Ransomware</h1>
 
-<h2>Description</h2>
-
+<h2>Project Description</h2>
+This project provides a comprehensive solution for responding to zero-day vulnerabilities, focusing on scenarios notifying affected AIG personnel and bypassing ransomware. The main objective is to demonstrate how to leverage Python to perform brute-force attacks to bypass file encryption and recover access to critical data, in case vulnerabilties are exploited. This method simulates an emergency recovery strategy in environments where ransomware has compromised data access, showcasing a defensive, educational tool rather than offensive hacking.
 <br />
-
 
 <h2>Languages and Utilities Used</h2>
 
-- <b></b> 
-- <b></b>
+- <b>Python 3.12.8</b> 
 
 <h2>Environments Used </h2>
 
-- <b></b> (21H2)
+- <b>MacOS</b>
+- <b>Linux</b>
 
+<h2>Frameworks and References Used</h2>
+
+
+  -  <b> Cybersecurity & Infrastructure Security Agency (CISA)</b>
+
+  
+  -  <b> NIST National Vulnerability Database (NVD) </b>
 <h2>Scenario</h2>
 <br/>
 <img src="https://imgur.com/xKQyBY5.png" height="80%" width="80%"/>
@@ -67,18 +73,23 @@ AIG Cyber & Information Security Team
 <img src="https://imgur.com/06wvubS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Brute Force Script<br/>
+<img src="https://imgur.com/g9nEmQz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Code and Password Successfully Bruteforced <br/>
+<img src="https://imgur.com/9ZfoWrk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<img src="https://imgur.com/wyLLeYA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Decrypted File<br/>
+<img src="https://imgur.com/W1pSiwb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h2>Summary </h2>
+
+-  **Zero-Day Vulnerability Response**: Gained an understanding of identifying, mitigating, responding to zero-day exploits in real-world scenarios. Also provided remediation strategies based on the CISA and NIST NVD.
+-  **Ransomware Bypass Strategies:** Learned practical technique such as brute forcing for recovering encryypted zip files.
+-  **Python Scripting for Security**: Developed skills in creating and optimizing Python scripts for cybersecurity tasks.
